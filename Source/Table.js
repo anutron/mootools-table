@@ -3,7 +3,7 @@
 
 name: Table
 description: LUA-Style table implementation.
-provides: Table
+provides: [Table]
 
 ...
 */
