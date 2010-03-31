@@ -2,8 +2,8 @@
 ---
 name: Table
 description: LUA-Style table implementation.
-requires: [Core/Type, Core/Array]
-provides: Table
+requires: [Core/Array]
+provides: [Table]
 ...
 */
 
