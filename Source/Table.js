@@ -1,14 +1,15 @@
 /*
 ---
-
 name: Table
 description: LUA-Style table implementation.
-provides: [Table]
-
+requires: [Core/Type, Core/Array]
+provides: Table
 ...
 */
 
-var Table = function(){
+(function(){
+
+var Table = this.Table = function(){
 	this.keys = [];
 	this.values = [];
 	this.length = 0;
@@ -51,3 +52,8 @@ Table.prototype = {
 };
 
 Table.prototype.each = Table.prototype.forEach;
+
+if (this.Type) new Type('Table', Table);
+
+})();
+
