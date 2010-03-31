@@ -1,8 +1,8 @@
-name: Touch
+name: Table
 
 web: "[mad4milk.net](http://mad4milk.net)"
 
-description: "Class to aid the retrieval of the cursor movements"
+description: LUA-Style Table implementation in plain JavaScript
 
 authors: "[Valerio Proietti](http://mad4milk.net)"
 
@@ -10,13 +10,11 @@ license: "[MIT License](http://mootools.net/license.txt)"
 
 copyright: "&copy; [Valerio Proietti](http://mad4milk.net)"
 
-sources:
-  - "Source/Touch.js"
-  
-# Values for MooTools forge
-  
 author: kamicane
 
-category: Interface
+category: Types
 
-tags: [drag, drop]
+tags: [data, structure]
+
+sources:
+  - "Source/Table.js"
